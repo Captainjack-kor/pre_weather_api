@@ -1,0 +1,45 @@
+    body {
+        width: 100%;
+        background: url(https://src.hidoc.co.kr/image/lib/2020/4/28/1588057074285_0.jpg)
+          no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      #container {
+        display: flex;
+        justify-content: center;
+      }
+      #city {
+        background-color: lightgrey;
+        height: 600px;
+        width: 600px;
+        border-radius: 30px;
+      }
+      #temp {
+        font-size: 3.5rem;
+        font-weight: bold;
+      }
+      #cloud {
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+      #cityResult {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      #city {
+        text-align: center;
+        padding-top: 50px;
+      }
+      .cityName {
+        height: 25px;
+        width: 300px;
+      }
+      #displayInfo {
+        display: flex;
+        flex-direction: column;
+      }
+      img {
+        width: 250px;
+      }
+    
